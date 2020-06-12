@@ -32,10 +32,10 @@ func main() {
 		log.Printf("%q", r.UserAgent())
 		// Fill the book details
 		book := Book{
-			ID:            123,
-			ISBN:          "0-201-03801-3",
-			Author:        "Donald Knuth",
-			PublishedYear: "1968",
+			ID:            321,
+			ISBN:          "1-201-03801-3",
+			Author:        "Batman Robin",
+			PublishedYear: "1923",
 		}
 		// Convert struct to JSON using Marshal
 		jsonData, _ := json.Marshal(book)
